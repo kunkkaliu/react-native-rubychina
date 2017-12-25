@@ -3,4 +3,9 @@ ios/
 release_ios/
 node_modules/
 .expo/
-npm-debug.*
+npm-debug.log*
+.DS_Store
+.vscode
+.idea/
+.med/
+.kube/
