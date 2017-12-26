@@ -114,7 +114,7 @@ class TopicsList extends React.PureComponent {
                     data={topics}
                     renderItem={this.renderItem}
                     keyExtractor={this.keyExtractor}
-                    ListFooterComponent={this.listFooterComponent()}
+                    ListFooterComponent={this.listFooterComponent}
                     getItemLayout={this.getItemLayout}
                     onEndReached={this.onEndReached}
                     onEndReachedThreshold={0.1}

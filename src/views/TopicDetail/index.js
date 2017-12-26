@@ -28,13 +28,14 @@ class TopicDetail extends React.PureComponent {
                 automaticallyAdjustContentInsets={false}
                 scalesPageToFit={false}
                 style={styles.container}
-                contentInset={{top: 200, left: 0, right: 0, bottom: 200}}
+                contentInset={{top: 0, left: 0, right: 0, bottom: 0}}
                 source={{
                         html: `<head>
                                    <link rel="stylesheet" href="https://ruby-china.org/assets/front-e978d636fcfd9e39098633917935b80f668bbb57b23f216d914e9c0d73751f46.css"/>
                                    <style>
                                        body {
                                             background-color: #fff;
+                                            padding: 80px 0 60px 0;
                                        }
                                        .markdown {
                                            padding: 0 15px;
